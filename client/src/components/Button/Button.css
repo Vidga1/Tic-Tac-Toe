@@ -1,0 +1,19 @@
+._button {
+  background: linear-gradient(to right, #52a7ff, #6f86d6);
+  border: 1px solid #6941c6;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+  color: #ffffffde;
+  padding: 12px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+._button:hover {
+  background-color: #f25353;
+}
+
+.btn_formStart {
+  min-width: 125px;
+}
