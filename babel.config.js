@@ -4,8 +4,8 @@ module.exports = {
       '@babel/preset-env',
       {
         targets: { node: 'current' },
-        useBuiltIns: 'entry',
-        corejs: 3,
+        useBuiltIns: 'entry', // alternative mode: "entry"/ "usage"
+        corejs: 3, // default would be 2
       },
     ],
     '@babel/preset-typescript',
