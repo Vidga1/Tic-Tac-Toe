@@ -10,7 +10,7 @@ const Message: FC<IMessageProps> = ({ status, roomId }) => {
   const messageForObserver = (
     <>
       <p className="message">
-        Подождите, пока второй игрок подключится к вашей комнате.
+        Please wait for the second player to connect to your room.
       </p>
     </>
   );
@@ -18,14 +18,13 @@ const Message: FC<IMessageProps> = ({ status, roomId }) => {
   const messageForPlayer = (
     <>
       <p className="message">
-        Подождите, пока второй игрок подключится к вашей комнате.
+        Please wait for the second player to connect to your room.
       </p>
       <p className="message">
-        ID Вашей комнаты <span>{roomId}</span>.
+        Your room ID is <span>{roomId}</span>.
       </p>
       <p className="message">
-        Отправьте идентификатор второму игроку или подождите случайного
-        соперника.
+        Send the ID to the second player or wait for a random opponent.
       </p>
     </>
   );

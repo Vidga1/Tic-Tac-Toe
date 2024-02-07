@@ -9,7 +9,9 @@ interface IStartMenuProps {
 
 const StartMenu: FC<IStartMenuProps> = ({ onClickPlayer, onClickObserver }) => (
   <div className="start-menu _container">
-    <h2 className="start-menu__title">Хочешь просто наблюдать или играть?</h2>
+    <h2 className="start-menu__title">
+      Do you want to just watch or do you want to play?
+    </h2>
     <div className="start-menu__buttons">
       <Button title="Player" onClick={onClickPlayer} />
       <Button title="Observer" onClick={onClickObserver} />

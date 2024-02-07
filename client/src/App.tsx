@@ -236,7 +236,7 @@ const App: FC = () => {
   }, [offerAndAgreement]);
 
   return (
-    <div className="_container">
+    <main className="_container">
       <Title />
       {state.showStatusSelection && (
         <StartMenu
@@ -283,7 +283,7 @@ const App: FC = () => {
       {!connection.state && connection.message === 'Server went down' && (
         <ServerWentDownModal />
       )}
-    </div>
+    </main>
   );
 };
 

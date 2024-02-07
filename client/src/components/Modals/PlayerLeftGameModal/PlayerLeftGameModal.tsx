@@ -17,10 +17,10 @@ const PlayerLeftGameModal: FC<IPlayerLeftGameModalProps> = ({ leaverName }) => (
       <div className="modal__dialog modal-dialog">
         <div className="modal-dialog__content modal-content">
           <div className="modal-content__header">
-            {leaverName} Покинул игру!
+            {leaverName} left the game
           </div>
           <div className="modal-content__body">
-            Для дальнейшей работы с приложением требуется перезагрузка страницы!
+            Page reloading is required for further work with the application!
           </div>
         </div>
       </div>

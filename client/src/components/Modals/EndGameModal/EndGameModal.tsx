@@ -52,7 +52,7 @@ const EndGameModal: FC<IEndGameModalProps> = ({
               {!endGame.winner
                 ? 'Tie!'
                 : getNameWinner()
-                  ? `Победитель - ${getNameWinner()}!`
+                  ? `Winner - ${getNameWinner()}!`
                   : 'Waiting'}
             </div>
             {user.status !== 'observer' && (
@@ -77,15 +77,15 @@ const EndGameModal: FC<IEndGameModalProps> = ({
                     )}
                     <div className="modal-content__footer">
                       <span className="modal-content__footer_note">Note: </span>
-                      В новой игре игрок, инициировавший создание новой игры,
-                      будет иметь право на первый ход!
+                      In a new game, the player who initialised the creation of
+                      the new game will have the right of first turn.
                     </div>
                   </>
                 )}
                 {newGame && (
                   <div className="modal-content__body">
-                    Участник инициировал создание новой игры! Мы ждем
-                    подтверждения второго участника!
+                    The participant has created of a new game. We are waiting
+                    for the confirmation of the second player.
                   </div>
                 )}
               </>

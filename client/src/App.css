@@ -4,13 +4,11 @@
   margin: 0;
   padding: 0;
   font-weight: 500;
-  color: #a11111;
+  color: #e0e0e0;
 }
 
 body {
-  background-image: url('https://wallpapers.com/images/hd/minimalism-2560-x-1440-wallpaper-xgbnhpv6p168xsz2.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
 }
 
 .root {
@@ -29,4 +27,12 @@ body {
     max-width: 1300px;
     margin: 0 auto;
   }
+}
+
+.input-name {
+  color: black;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 16px;
 }

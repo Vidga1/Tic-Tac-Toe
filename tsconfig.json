@@ -3,7 +3,6 @@
     "target": "ES2016",
     "lib": ["ES6"],
     "jsx": "react",
-
     "module": "NodeNext",
     "resolveJsonModule": true,
     "esModuleInterop": true,

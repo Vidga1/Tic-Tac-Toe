@@ -3,7 +3,7 @@ import './Title.css';
 
 const Title: FC = () => (
   <header className="_container">
-    <h1 className="title">Игра "Крестики-Нолики"</h1>
+    <h1 className="title">TIC-TAC-TOE ONLINE</h1>
   </header>
 );
 
