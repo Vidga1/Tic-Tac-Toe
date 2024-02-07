@@ -9,6 +9,8 @@
 
 body {
   background-image: url('https://wallpapers.com/images/hd/minimalism-2560-x-1440-wallpaper-xgbnhpv6p168xsz2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .root {

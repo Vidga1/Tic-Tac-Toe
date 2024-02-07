@@ -43,12 +43,6 @@ module.exports = {
   },
   plugins: ['jest', '@typescript-eslint', 'react', 'prettier'],
   rules: {
-    'prettier/prettier': [
-      'error',
-      {
-        endOfLine: 'auto',
-      },
-    ],
     'import/extensions': ['warn', { css: 'never', ts: 'never', tsx: 'never' }],
     'import/prefer-default-export': 'off',
     'no-nested-ternary': 'off',

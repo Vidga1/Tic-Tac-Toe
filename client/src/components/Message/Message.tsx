@@ -21,7 +21,7 @@ const Message: FC<IMessageProps> = ({ status, roomId }) => {
         Подождите, пока второй игрок подключится к вашей комнате.
       </p>
       <p className="message">
-        Your room ID is <span>{roomId}</span>.
+        ID Вашей комнаты <span>{roomId}</span>.
       </p>
       <p className="message">
         Отправьте идентификатор второму игроку или подождите случайного
