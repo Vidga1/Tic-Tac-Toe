@@ -80,5 +80,5 @@
     ],
     "*.{css,md,yml,json,html}": "prettier . --write"
   },
-  "proxy": "ws://localhost:80"
+  "proxy": "wss://cross-zero-cross.onrender.com"
 }
